@@ -1,0 +1,82 @@
+{
+  "workbench.colorCustomizations": {
+    "list.activeSelectionBackground": "#2979FF50",
+    "activityBarBadge.background": "#2979FF",
+    "list.activeSelectionForeground": "#2979FF",
+    "list.inactiveSelectionForeground": "#2979FF",
+    "list.highlightForeground": "#cdff29",
+    "scrollbarSlider.activeBackground": "#2979FF50",
+    "editorSuggestWidget.highlightForeground": "#2979FF",
+    "textLink.foreground": "#2979FF",
+    "progressBar.background": "#2979FF",
+    "pickerGroup.foreground": "#2979FF",
+    "tab.activeBorder": "#2979FF",
+    "notificationLink.foreground": "#2979FF",
+    "editorWidget.resizeBorder": "#2979FF",
+    "editorWidget.border": "#2979FF",
+    "settings.modifiedItemIndicator": "#2979FF",
+    "settings.headerForeground": "#2979FF",
+    "panelTitle.activeBorder": "#2979FF",
+    "breadcrumb.activeSelectionForeground": "#2979FF",
+    "menu.selectionForeground": "#2979FF",
+    "menubar.selectionForeground": "#2979FF"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Operator Mono Book",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.folders.theme": "specific",
+  "workbench.colorTheme": "Hop Light",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.intellisense": "rubyLocate",
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": true,
+  "ruby.lint": {
+    "reek": true,
+    "ruby": true, //Runs ruby -wc
+    "fasterer": true,
+    "debride": true,
+    "ruby-lint": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "eslint.autoFixOnSave": true
+}
+

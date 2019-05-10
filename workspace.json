@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "/home/jorgex/Projects"
+		},
+		{
+			"path": "/home/jorgex/Desktop/Learning"
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "Operator Mono Book",
+		"editor.fontLigatures": true,
+		"editor.fontWeight": "normal",
+    "editor.fontSize": 12
+	}
+}
